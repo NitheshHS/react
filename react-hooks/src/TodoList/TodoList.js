@@ -9,7 +9,7 @@ function TodoList() {
         setTask(event.target.value)
     }
     const handleSubmit = event=>{
-        if(task!=''){
+        if(task!==''){
         setTodos(todos.concat({id:todos.length, task:task}));
         }
         setTask('')
