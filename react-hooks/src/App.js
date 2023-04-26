@@ -16,6 +16,10 @@ import React from 'react';
 import UseReducerCounter from './useReducer/UseReducerCounter';
 import UseReducerCounterObj from './useReducer/UseReducerCounterObj';
 import DataFetchingReducer from './useReducer/DataFetchingReducer';
+import FormReducer from './useReducer/FormReducer';
+import ParentComponent from './useCallbackHook/ParentComponent';
+import MemoCounter from './useMemoHook/MemoCounter';
+import RefExample from './useRefHook/RefExample';
 
 
 // export const UserNameContext = React.createContext()
@@ -36,7 +40,11 @@ function App() {
       </UserNameContext.Provider> */}
       {/* <UseReducerCounter></UseReducerCounter> */}
       {/* <UseReducerCounterObj></UseReducerCounterObj> */}
-      <DataFetchingReducer></DataFetchingReducer>
+      {/* <DataFetchingReducer></DataFetchingReducer> */}
+      {/* <FormReducer></FormReducer> */}
+      {/* <ParentComponent></ParentComponent> */}
+      {/* <MemoCounter></MemoCounter> */}
+      <RefExample></RefExample>
     </div>
   );
 }
