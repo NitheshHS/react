@@ -20,6 +20,8 @@ import FormReducer from './useReducer/FormReducer';
 import ParentComponent from './useCallbackHook/ParentComponent';
 import MemoCounter from './useMemoHook/MemoCounter';
 import RefExample from './useRefHook/RefExample';
+import CounterOne from './customHook/CounterOne';
+import CounterCustom from './customHook/CounterCustom';
 
 
 // export const UserNameContext = React.createContext()
@@ -44,7 +46,9 @@ function App() {
       {/* <FormReducer></FormReducer> */}
       {/* <ParentComponent></ParentComponent> */}
       {/* <MemoCounter></MemoCounter> */}
-      <RefExample></RefExample>
+      {/* <RefExample></RefExample> */}
+      {/* <CounterOne></CounterOne> */}
+      <CounterCustom></CounterCustom>
     </div>
   );
 }
