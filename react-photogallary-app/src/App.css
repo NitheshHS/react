@@ -56,6 +56,9 @@
   border-radius: 8px;
   margin-bottom: 5px;
 }
+.card img:hover{
+  transform: scale(1.1);
+}
 .card h2{
   margin-top: 0px;
   margin-bottom: 10px;
@@ -67,6 +70,11 @@
 .card ul>li{
   margin-top: 5px;
   
+}
+
+.card .tags{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card .tags>span{
@@ -106,5 +114,8 @@
   border-radius: 10px;
   font-weight: bold;
   border-style: none;
+}
+h2>span{
+  color: orangered;
 }
 

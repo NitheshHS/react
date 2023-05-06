@@ -7,7 +7,7 @@ function ImageCard({image}) {
   return (
     <div className="card">
         <img src={image.previewURL} alt='img'></img>
-        <h2>Photo By {image.user} </h2>
+        <h2>Photo By <span>{image.user}</span> </h2>
         <ul>
           <li>
             <span><strong>views: </strong> {image.views}</span>
