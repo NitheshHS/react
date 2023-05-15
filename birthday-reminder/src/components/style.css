@@ -1,0 +1,25 @@
+.profiles{
+    padding-left: 10px;
+}
+article{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    margin: 5px;
+    border-radius: 5px;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+.profile-img{
+    padding: 5px 8px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+/* .profile-info{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    align-items: center;
+    justify-self: start;
+} */

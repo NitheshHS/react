@@ -48,7 +48,7 @@
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   padding: 16px;
-  margin: 16px;
+  margin: 10px 10px;
 }
 .card img{
   width: 100%;
@@ -80,8 +80,6 @@
 .card .tags>span{
   background-color: hsla(0, 0%, 50%, 0.55);
   margin-bottom: 5px;
-  display: flex;
-  justify-content: space-between;
   color: black;
   padding: 5px;
   border: 1px solid white;
